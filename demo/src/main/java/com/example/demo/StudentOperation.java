@@ -21,12 +21,7 @@ studentDataList.add(studentData);
 List<StudentData> getStudentDataList() {
     return studentDataList;
 }
-
-
-
-
-
-
-
-
+void deleteStudentData(StudentData studentData){
+    studentDataList.remove(studentData);
+}
 }

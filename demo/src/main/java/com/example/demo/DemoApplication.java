@@ -10,7 +10,9 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		ApplicationContext context =SpringApplication.run(DemoApplication.class, args);
 		student st = context.getBean(student.class);
+		WiredStudent ws = context.getBean(WiredStudent.class);
 		st.lang();
+		ws.build();
 
 	}
 

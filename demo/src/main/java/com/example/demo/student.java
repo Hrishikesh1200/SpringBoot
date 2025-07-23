@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class student {
-    void lang(){
+    public void lang(){
         System.out.println("Hello World");
     }
 
