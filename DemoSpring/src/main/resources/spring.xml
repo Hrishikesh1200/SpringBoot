@@ -9,7 +9,16 @@
 
     <!-- bean definitions here -->
     <bean id = "div" class = "org.example.WiredStudent">
+        <!-- getting value by using property -->
+        <property name="age" value="1666"/>
+        <property name="Name" value="Assigned value by Spring"/>
+        <!-- getting value by using Constructor arg -->
+        <constructor-arg value="M.V.D.M"/>
+    </bean>
 
+    <bean id = "div1" class = "org.example.WiredStudent">
+        <!-- getting value by using Constructor arg -->
+        <constructor-arg value="M.V.D.M"/>
     </bean>
 
 </beans>
