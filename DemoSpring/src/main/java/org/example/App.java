@@ -10,7 +10,11 @@ public class App
     {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
         WiredStudent ws = applicationContext.getBean(WiredStudent.class);
-        ws.build();
+        //ws.build();
+        ws.setAge(12);
+        ws .setName("Name using getter and setter because name and age are private in WiredStudentClass");
+        System.out.println( ws.getAge() );
+        System.out.println( ws.getName());
         System.out.println( "Hello World!" );
     }
 }
