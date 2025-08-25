@@ -10,5 +10,6 @@ public class SpringWebApplication {
 
 		SpringApplication.run(SpringWebApplication.class, args);
 		System.out.println("Main Class");
+
 	}
 }
