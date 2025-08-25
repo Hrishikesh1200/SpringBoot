@@ -1,0 +1,48 @@
+2025-08-25 11:37:43.100153+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (order_num integer not null, customer_name varchar(255), order_type varchar(255), time timestamp(6), primary key (order_num))"; expected "identifier"; SQL statement:
+create table order (order_num integer not null, customer_name varchar(255), order_type varchar(255), time timestamp(6), primary key (order_num)) [42001-232]
+2025-08-25 11:37:57.764778+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 11:38:11.409429+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 11:39:08.393472+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (order_num integer not null, customer_name varchar(255), order_type varchar(255), time timestamp(6), primary key (order_num))"; expected "identifier"; SQL statement:
+create table order (order_num integer not null, customer_name varchar(255), order_type varchar(255), time timestamp(6), primary key (order_num)) [42001-232]
+2025-08-25 11:39:16.934128+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 11:39:19.900157+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 11:39:24.895687+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 11:41:52.615458+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (order_num integer not null, customer_name varchar(255), order_type varchar(255), time timestamp(6), primary key (order_num))"; expected "identifier"; SQL statement:
+create table order (order_num integer not null, customer_name varchar(255), order_type varchar(255), time timestamp(6), primary key (order_num)) [42001-232]
+2025-08-25 11:41:57.328436+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 11:42:08.463698+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_type,o1_0.time from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 11:43:16.546320+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (order_num integer not null, customer_name varchar(255), order_date varchar(255), order_type varchar(255), primary key (order_num))"; expected "identifier"; SQL statement:
+create table order (order_num integer not null, customer_name varchar(255), order_date varchar(255), order_type varchar(255), primary key (order_num)) [42001-232]
+2025-08-25 11:43:33.737794+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (order_num integer not null, customer_name varchar(255), order_date varchar(255), order_type varchar(255), primary key (order_num))"; expected "identifier"; SQL statement:
+create table order (order_num integer not null, customer_name varchar(255), order_date varchar(255), order_type varchar(255), primary key (order_num)) [42001-232]
+2025-08-25 11:43:42.812766+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_date,o1_0.order_type from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_date,o1_0.order_type from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 12:23:22.609749+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (order_num integer not null, customer_name varchar(255), order_date varchar(255), order_type varchar(255), primary key (order_num))"; expected "identifier"; SQL statement:
+create table order (order_num integer not null, customer_name varchar(255), order_date varchar(255), order_type varchar(255), primary key (order_num)) [42001-232]
+2025-08-25 12:23:33.057220+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_date,o1_0.order_type from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_date,o1_0.order_type from order o1_0 where o1_0.order_num=? [42001-232]
+2025-08-25 12:24:12.089053+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select o1_0.order_num,o1_0.customer_name,o1_0.order_date,o1_0.order_type from [*]order o1_0 where o1_0.order_num=?"; expected "identifier"; SQL statement:
+select o1_0.order_num,o1_0.customer_name,o1_0.order_date,o1_0.order_type from order o1_0 where o1_0.order_num=? [42001-232]
