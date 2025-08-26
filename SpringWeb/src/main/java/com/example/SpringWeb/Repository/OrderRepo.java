@@ -10,4 +10,5 @@ import java.util.List;
 public interface OrderRepo extends JpaRepository<Order, Integer> {
     // Derived query method
     List<Order> findByCustomerName(String customerName);
+
 }

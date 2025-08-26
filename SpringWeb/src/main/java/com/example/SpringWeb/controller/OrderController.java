@@ -17,6 +17,7 @@ private OrderService oSer;
     //for taking order using post operation
     @PostMapping("/giveOrder")
     public String giveOrder(@RequestBody Order os){
+
         oSer.giveOrder(os);
         return "Order Taken Successfully";
     }
@@ -33,4 +34,8 @@ private OrderService oSer;
         return "Order Deleted Successfully";
     }
 
+    @GetMapping("/orderbycustname/{name}")
+    public List<Order> getOrdersByCustomer(@PathVariable String name) {
+        return oSer.getOrdersByCustomerName(name);
+    }
 }

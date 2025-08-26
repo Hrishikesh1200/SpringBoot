@@ -28,5 +28,9 @@ public class OrderService {
         or.deleteById(os1.getOrderNum());
     }
 
+    public List<Order> getOrdersByCustomerName(String name) {
+        return or.findByCustomerName(name);
+    }
+
 }
 
