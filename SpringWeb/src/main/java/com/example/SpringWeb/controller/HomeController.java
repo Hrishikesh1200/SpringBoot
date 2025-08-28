@@ -54,6 +54,12 @@ public class HomeController {
         return " Customer Inserted";
     }
 
+    @PostMapping("/insertCusto")
+    public String insertCusto(@RequestBody Customer cs1){
+        cs.insertData(cs1);
+        return " Customer Inserted successfully";
+    }
+
     @GetMapping("/getCust")
     public List<Customer> getCust(){
         return cs.getCustDetail();
