@@ -9,7 +9,8 @@ import org.springframework.stereotype.Service;
 public class UserService {
 
     @Autowired
-    userRepository ur;
+    private userRepository ur;
+
     public void addingUser(UserModel useradd) {
         ur.save(useradd);
     }

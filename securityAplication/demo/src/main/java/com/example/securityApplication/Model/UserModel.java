@@ -16,7 +16,7 @@ import lombok.Setter;
 public class UserModel {
 
     @Id
-    private String aadharID;
+    private String ID;
     private String name;
     private String address;
 

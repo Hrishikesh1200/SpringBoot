@@ -1,6 +1,7 @@
 package com.example.securityApplication.Controller;
 
 
+import com.example.securityApplication.Model.UserModel;
 import com.example.securityApplication.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,7 +18,7 @@ public class User_controller {
     private UserService us;
 
     @PostMapping("/add")
-    public String addUser(@RequestBody String useradd){
+    public String addUser(@RequestBody UserModel useradd){
 
         us.addingUser(useradd);
         return "New user added Successfully...!";
