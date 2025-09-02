@@ -13,5 +13,6 @@ public class UserService {
 
     public void addingUser(UserModel useradd) {
         ur.save(useradd);
+
     }
 }
