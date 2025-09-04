@@ -15,4 +15,9 @@ public class UserService {
         ur.save(useradd);
 
     }
+
+    public String generateToken(UserModel user2) {
+
+        return "Token generated...";
+    }
 }

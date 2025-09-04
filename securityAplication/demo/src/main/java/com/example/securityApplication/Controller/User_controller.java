@@ -24,4 +24,8 @@ public class User_controller {
         return "New user added Successfully...!";
     }
 
+    @PostMapping("/login")
+    public void logUser(@RequestBody UserModel user1){
+        us.generateToken(user1);
+    }
 }
